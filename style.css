@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px !important;
+}
+
+body {
+  background-color: #f6f5f2;
+}
+
+.navbar {
+  background-color: #eadbc8 !important;
+}
+
+.navbar-brand {
+  font-size: 23px !important;
+}
+
+.header {
+  font-family: "Leckerli One", cursive !important;
+  font-size: 50px !important;
+}
+
+.card {
+  background-color: #f6f5f2;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.urlInput {
+  background-color: #f6f5f2;
+}
+
+
+
+.table tr th {
+  background-color: #eadbc8 !important;
+  border: 2px solid gray;
+  text-align: center !important;
+}
+
+.table tr td {
+  background-color: #f6f5f2 !important;
+  border: 2px solid gray;
+  text-align: center !important;
+}
+
+tr {
+  border: 2px solid gray !important;
+  text-align: center !important;
+} 
+
+
+@media screen and (max-width: 456px) {
+    .navbar-brand {
+        font-size: 18px !important;
+      }
+      
+      .header {
+        font-family: "Leckerli One", cursive !important;
+        font-size: 30px !important;
+      }
+}
